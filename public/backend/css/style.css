@@ -1,0 +1,118 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{background: #1B1B1B !important; margin: 0; padding: 0; box-sizing: border-box; font-family: 'exo2.0-regular-webfont', sans-serif !important;}
+h3, h6{margin: 0 0 20px 0; font-family: 'exo2.0-regular-webfont', sans-serif !important}
+h3{font-size: 28px; line-height: normal;}
+h6{font-size: 16px; line-height: normal;}
+p{font-size: 14px; line-height: normal; letter-spacing: 0.7px; margin: 0; font-weight: 400;}
+img{width: 100%;}
+.container{width: 100%; max-width: 1024px; margin: 0 auto;}
+.flex{display:flex;}
+.flex-aln-start{align-items: flex-start; justify-content: flex-start;}
+.flex-center-aln-s{align-items: flex-start; justify-content: center;}
+.flex-center{align-items: center; justify-content: center;}
+.flex-jst-center{justify-content: center;}
+
+/*css start here*/ 
+
+@font-face {
+  font-family: 'exo2.0-regular-webfont';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/exo2.0-regular-webfont.woff) format('woff');
+}
+
+
+/*innovation section css start here */
+.ctm-heading-text{width: 100%;}
+.ctm-heading-text .ctm-heading-inner{width: 100%; max-width: 345px; margin:0; position: relative; padding: 0 0 0 50px;}
+.ctm-heading-text .ctm-heading-inner:before { content: ""; position: absolute; width: 32px; height: 2px; background: #E7A913; left: 0; top: 8px; }
+.ctm-heading-text .ctm-heading-inner h6 { color: #EAEAEA; font-family: Exo; font-weight: 500; letter-spacing: 0.8px;}
+.ctm-heading-text .ctm-heading-inner p{color: #BBB;}
+.innovation-wrap{width: 100%; position: relative; padding:200px 0;}
+.innovation-caption{position: relative; margin: 0;}
+.innovation-wrap .left-invt-caption{width: 50%; display: inline-block;}
+.innovation-wrap .left-invt-caption .image-title{width: 100%; max-width:380px; margin: 0 0 59px 0;}
+.innovation-wrap .left-invt-caption .image-title > img { width: 100%; border-radius: 10px; }
+.innovation-wrap .left-invt-caption .image-title .detail-info{width: 100%; max-width: 277px; margin: 17px 0 0 0;}
+.innovation-wrap .left-invt-caption .image-title .detail-info img{width: auto; object-fit: contain; margin: 0 0 6px 0;}
+.innovation-wrap .left-invt-caption .image-title .detail-info p { color: #BBB;}
+.innovation-wrap .left-invt-caption .over-image{width: calc(100% + 20px); position: relative; left: 0;}
+.innovation-wrap .left-invt-caption .over-image img{width: 100%; object-fit: cover; border-radius: 10px;}
+.innovation-wrap .right-invt-caption{width: 50%; display: inline-block;}
+.innovation-wrap .right-invt-caption .ctm-heading-text{ margin-left: -26px; }
+.innovation-wrap .right-invt-caption .over-image{width: calc(100% + 26px); position: relative; right: 26px; z-index: 8; margin: 85px 0 0 0;}
+.innovation-wrap .right-invt-caption .over-image img{width: 100%; border-radius: 10px;}
+.innovation-wrap .right-invt-caption .mid-image { width: 100%; text-align: center; margin-top: -70px; z-index: 9; position: relative; padding-left: 40px;}
+.innovation-wrap .right-invt-caption .mid-image img{width: 100%; max-width: 332px; border-radius: 10px;}
+/*innovation section css end here */
+
+/*Monogram section css start here*/
+.monogram-wrap{width: 100%; position: relative; padding:36px 0 100px 0;}
+.monogram-wrap .monogram-caption{position: relative;}
+.monogram-wrap .lc-logo{text-align: center; margin: 0 0 66px 0;} 
+.monogram-wrap .lc-logo img{width: 100%; max-width: 84px; margin: 0 auto;}
+.titleright-content .ctm-heading-text{max-width: 370px; width: 100%;margin-left: auto; margin-right: 0;}
+/*Monogram section css end here*/
+
+/*Accent section css start here */
+.accent-wrap { width: 100%; position: relative; padding: 131px 0 309px 0; background: url(../images/accent-bg.png) no-repeat; background-size: cover; background-position: center; }
+.accent-wrap .accent-caption{position: relative;}
+.accent-wrap .accent-caption .ctm-heading-text{margin: 0 0 84px 0;}
+.accent-wrap .accent-content-wrap{gap: 90px;}
+.accent-wrap .accent-content-wrap .accent-content-inner{width: calc(100% / 2 - 45px);}
+.accent-wrap .accent-content-wrap .accent-content-inner .text-img-item{width: 100%; margin-bottom: 45px; min-height:172px; }
+.accent-wrap .accent-content-wrap .accent-content-inner .text-img-item:last-child{margin: 0;}
+.accent-wrap .accent-content-wrap .accent-content-inner .title-caption { width: 100%; padding: 0 0 18px; margin: 0 0 25px 0; border-bottom: 1px solid #E7A913; min-height: 50px; align-items: flex-end; justify-content: flex-start; }
+.accent-wrap .accent-content-wrap .accent-content-inner img{width: auto !important; display: inline-block;}
+/*Accent section css end here */
+
+/*compositions section css start here*/
+.compositions-wrap{width: 100%; position: relative; padding:79px 0 64px 0;}
+.compositions-wrap .compositions-caption{width: 100%; position: relative;}
+.compositions-wrap .compositions-items { width: 100%; gap: 0; flex-wrap: wrap; }
+.compositions-wrap .compositions-items .compositions-item{width: 50%; display: inline-flex; position: relative;}
+.compositions-wrap .compositions-items .compositions-item.one{ z-index: 2; margin-top: 144px;}
+.compositions-wrap .compositions-items .compositions-item.two{z-index: 3; right: 22px;}
+.compositions-wrap .compositions-items .compositions-item.three { z-index: 4; margin-top: -46px; margin-left: 100px; }
+.compositions-wrap .compositions-items .compositions-item .image-item{width: calc(100% + 25px); display: inline-flex; position:relative;}
+.compositions-wrap .compositions-items .compositions-item.one .image-item img{width: calc(100% + 25px);}
+.compositions-wrap .compositions-items .compositions-item.two .image-item, .compositions-wrap .compositions-items .compositions-item.two .image-item img{width: calc(100% + 22px);}
+.compositions-wrap .compositions-items .compositions-item.three .image-item, .compositions-wrap .compositions-items .compositions-item.three .image-item img{ width: calc(100% + 22px);}
+.compositions-wrap .compositions-items .compositions-item img{width: auto; border-radius: 10px;}
+.compositions-wrap .titleright-content{padding: 38px 0 0 0;}
+/*compositions section css end here*/
+
+/*Classical singing section css start here*/
+.classical-wrap{width: 100%; position: relative; padding: 215px 0 130px 0; background: url(../images/bg-logo-lg.png) no-repeat; background-size: contain; background-position: center; }
+.classical-wrap .classical-caption{width: 100%; position: relative;}
+.classical-wrap .classical-items{justify-content: flex-start; width: 100%; gap: 44px; margin: 0 0 99px 0;}
+.classical-wrap .classical-items .classical-item{width: calc(50% - 22px); display: inline-flex; position: relative;}
+.classical-wrap .classical-items .classical-item img{width: 100%; border-radius: 10px;}
+/*Classical singing section css end here*/
+
+/* Vocal lessons section css start here*/
+.v-lessons-wrap{width: 100%; position: relative; padding: 0 0 23px 0;}
+.v-lessons-wrap .v-lessons-caption{width: 100%; position: relative;}
+.v-lessons-wrap .v-lessons-items{ justify-content: flex-start; width: 100%; gap: 93px; margin: -13px 0 71px 0;}
+.v-lessons-wrap .v-lessons-items .v-lessons-item{width: calc(50% - 46.5px); display: inline-flex; position: relative;}
+.v-lessons-wrap .v-lessons-items .v-lessons-item.right{justify-content: flex-end;}
+/* Vocal lessons section css end here*/
+
+/*Representation section css start here*/
+.representation-wrap{width: 100%; position: relative; padding: 178px 0 0 0; background: url(../images/representation-bg.png) no-repeat; background-size: cover; background-position: center; }
+.representation-wrap .representation-caption{width: 100%; position: relative;}
+.representation-wrap .titleright-content{padding: 73px 0 97px 0;}
+.representation-wrap .titleright-content .ctm-heading-text{margin: 0;}
+.representation-wrap .representation-items{width: 100%; gap: 53px; margin:0; margin-top: 12px;}
+.representation-wrap .representation-items .representation-item.tab-item{width: 70%; display: inline-flex;}
+.representation-wrap .representation-items .representation-item.mobile-item{width: 30%; display: inline-flex; justify-content: flex-end; margin-top:-268px;}
+/*Representation section css end here*/
+
+/*thanks for watching section css start here*/
+.watching-wrap { width: 100%; position: relative; padding: 137px 0 110px 0; }
+.watching-wrap .watching-caption { width: 100%; position: relative; background: url(../images/logo-bg-watching.png) no-repeat; background-size: contain; background-position: center; min-height: 224px; }
+.watching-wrap .watching-caption img{width: 100%; max-width: 459px; margin: 0 auto;}
+/*thanks for watchingff section css end here*/
+
+/*css end here*/ 
+
